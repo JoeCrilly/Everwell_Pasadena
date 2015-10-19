@@ -128,17 +128,26 @@ header {
   text-shadow: 3px 3px #888888;
 }
 
+.navbar {
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
 .navbar-custom {
   height: 60px;
   background: rgba(255, 255, 255, 0);
-  box-shadow: none !important;
+  /*box-shadow: none !important;*/
   border: 0 !important;
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
 }
 
-.navbar .nav > li > a{
+.navbar .nav > li > a {
   color: #fff;
   font-size: 23px;
-  font-family: "Century Gothic";
+  font-family: 'Muli', sans-serif;
   font-weight: bold;
   padding: 0.7em;
   text-align: center;
@@ -168,6 +177,10 @@ header {
 
 .jumbotron {
   background-color: #fff;
+}
+
+.what-is-everwell > h2 {
+  padding-top: 50px;
 }
 
 .what-is-everwell > h3 {
@@ -204,7 +217,7 @@ header {
   text-align: center;
   max-width: 800px;
   margin: 40px auto;
-  position: relative; 
+  position: relative;
 }
 
 .no-focus-border:focus{
@@ -220,10 +233,14 @@ header {
   text-align: center;
   }
 
+.why-pasadena > h2 {
+  padding-top: 50px;
+}
+
 #container1 {
     position: relative;
     display: inline-block;
-  
+
 }
 
 #container1 * {
@@ -538,13 +555,16 @@ header {
 
 #content h1 {
   font-weight: bold;
+}
+#content > h2 {
+  padding-top: 70px;
   font-size: 250%;
   position: center;
   display: inline-block;
   height: 80px;
   line-height: 60px;
   margin-bottom: 0px;
-  font-family: Century Gothic, 'Bitter', 'Trebuchet MS', Cambria;
+  /*font-family: Century Gothic, 'Bitter', 'Trebuchet MS', Cambria;*/
   color: #FFFFFF;
 }
 
@@ -927,69 +947,6 @@ height: 600px;
 /* ---- CONTACT US SECTION ----*/
 
 
-	#contact_background{
-		width: 100%;
-		height: 100%;
-		background-color: #333333;
-		z-index: 1000;
-	}
-	#contact_us {
-		background-color: #333333;
-		font: 22pt normal Arial, sans-serif;
-		padding-left: 42%;
-		padding-bottom: 20px;
-		font-weight: bold;
-		color: white;
-	}
-
-	#address_table{
-		background-color: #333333;
-		padding-left: 25%;
-	}
-
-	#address_table td{
-		background-color: #333333;
-		font: 14pt normal Arial, sans-serif;
-		font-weight: bold;
-		color: white;
-	}
-
-	#form_table{
-		background-color: #333333;
-	    font: 14pt normal Arial, sans-serif;
-		padding: 5px;
-
-	}
-	#contact-area {
-		width: 100%;
-		margin-top: 25px;
-	}
-	#contact-area input, #contact-area textarea {
-	padding: 5px;
-	width: 100%;
-	max-width: 100%;
-	font-family: Helvetica, sans-serif;
-	font-size: 1em;
-	margin: 0px 0px 10px 0px;
-	border: 2px solid #ccc;
-}
-	#social_media_table{
-		background-color: #333333;
-		padding-right: 25%;
-	}
-
-	#social_media_titles {
-		background-color: #333333;
-		font-weight: bold;
-		color: white;
-		text-align: center;
-		font: 14pt normal Arial, sans-serif;
-		text-transform: uppercase;
-	}
-
-	/*footer{
-	background-color: #333333;
-	}*/
 
 .google-map {
 	display: absolute;
@@ -998,10 +955,11 @@ height: 600px;
 .contact-us-section {
 }
 
-.contact-us-section > h1 {
+.contact-us-section > h2 {
   color: #fff;
   text-align: center;
-  padding: 20px;
+  /*padding: 20px;*/
+  padding-top: 70px;
 }
 
 
@@ -1058,4 +1016,9 @@ height: 600px;
 
 .btn-contact-us:hover {
   background-color: #f2f2f2;
+}
+
+.careers-section > h2 {
+  text-align: center;
+  padding-top: 50px;
 }
