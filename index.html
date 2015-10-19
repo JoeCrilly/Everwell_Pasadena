@@ -5,6 +5,7 @@
 	<title>Everwell</title>
 
 	<link rel="stylesheet" href="ism/css/my-slider.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="ism/js/ism-2.0.1-min.js"></script>
 	<script src="/smooth-scroll-master/dist/js/smooth-scroll.js"></script>
@@ -45,6 +46,7 @@
          <!-- Magnific Popup core CSS and JS files -->
 	<link rel="stylesheet" href="css/magnific-popup.css">
   	<script src="javascript/modernizr.custom.js"></script>
+		<script src="javascript/navbar.js"></script>
   </head>
 
 
@@ -142,9 +144,11 @@
 					   $(document).scroll(function() {
 					      scroll_start = $(this).scrollTop();
 					      if(scroll_start > offset.top) {
-					          $(".navbar-custom").css('background-color', 'black');
+					          $(".navbar-custom").css('background-color', 'white');
+										$(".nav > li > a").css('color', 'black');
 					       } else {
 					          $('.navbar-custom').css('background-color', 'transparent');
+										$(".nav > li > a").css('color', 'white');
 					       }
 					   });
 					    }
@@ -156,7 +160,7 @@
 <body>
 
   <!-- WHAT IS EVERWELL SECTION -->
-
+	<span id="startchange"></span>
    <div class="jumbotron what-is-everwell" id="what-is-everwell">
     <h2>WHAT IS EVERWELL?</h2>
     <h3>Voluntary Insurance</h3>
@@ -181,10 +185,10 @@
 
   <div class="jumbotron why-pasadena" id="why-pasadena">
     <h2>WHY PASADENA</h2>
-  </div> 
+  </div>
 
   <div class="container">
-    
+
     <div class="row">
 
       <div class="col-sm-6" align="center">
@@ -233,7 +237,7 @@
           <img src="ism/image/slides/slide2.jpg" alt="Chania">
         </a>
       </div>
-    
+
       <div class="item">
         <a class="popup-with-zoom-anim" href="#shutterfly-dialog1">
           <img src="ism/image/slides/slide3.jpg" alt="Flower">
@@ -257,7 +261,7 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-      </div> 
+      </div>
 
       <div class="col-sm-6" align="center">
         <h2>EVENTS</h2>
@@ -298,7 +302,7 @@
             <li>Password:<input></input></li>
             <li><strong>Sign-Up for free</strong><a class= "btn-apply">Sign-UP</a></li>
           </ul>
-                    
+
 </div>
 
   <script type="text/javascript" src="javascript/smoothscroll.js"> </script>
@@ -309,7 +313,7 @@
 
 
     <div id="content">
-      <h1>MEET THE TEAMS</h1>
+      <h2>MEET THE TEAMS</h2>
     </div>
 
     <br><br><br>
@@ -655,7 +659,7 @@
 		</div>
 		<div class="clearfix visible-xs"></div>
 		<div class="col-xs-6 col-sm-3"></div>
-		</div>	
+		</div>
 
 		<div class="row">
 				<div class="col-xs-6">
@@ -665,29 +669,29 @@
 				  <div class="col-xs-6 ">
 				  <div class="regdir2">DIRECTOR</div>
 				 </div>
-		</div>	 
+		</div>
 		</div>
 		</div>
 		<div class="container">
 		<div class="rectangle1">
 		<div class="row">
-		 
+
 		<div class="col-xs-12 col-sm-3 col-md-6 col-lg-4">
 
-		<p class="para1">	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+		<p class="para1">	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 					</p>
 					</div>
-					
+
 		 <div class="col-xs-12 col-sm-9 col-md-6 col-lg-8">
-		 
-				  
+
+
 				  <p class ="para2">abore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit,reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					Lorem ipsum dolor
 					</p>
-				  
+
 				  </div>
 		</div>
 
@@ -699,7 +703,7 @@
 
 
 	</div> <!-- TODO Add CSS styling instead of <br /> tags -->
-	
+
 
 <div class="jumbotron careers-section" id="careers">
 		<h2>AVAILABLE POSITIONS</h2>
@@ -889,11 +893,13 @@
 
 
 </body>
+
 <!-- footer section -->
+<div id="contact-us"><br /></div>
 <footer>
 <div>
-	<div class="contact-us-section" id="contact-us">
-		<h1>CONTACT US</h1>
+	<div class="contact-us-section">
+		<h2>CONTACT US</h2>
 
 		<table class="contact-us-table">
 			<tr>
