@@ -77,33 +77,6 @@ body {
    border: 2px solid rgba(255,255,255,.5);
 }
 
-
-/* Splash page carousel
-header {
-
- position: relative;
-    width: 100%;
-    height: 100%;
-    background-image: url(images/header.jpg);
-	no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.header-content {
- position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  text-align:center;
-  color:white;
-}
-
-*/
-
 .what-is-everwell > h2 {
   color: #000000;
   text-align: center;
@@ -187,6 +160,21 @@ header {
   color: #4EAAB0;
   text-align: center;
 }
+.about-everwell {
+  width: 500px;
+  height: 200px;
+  border: 2px solid blue;
+  border-radius: 5%;
+  margin-left: 31.25%;
+  margin-top: 2%
+}
+#play-everwell{
+    background: url('images/play-icon.png') center  no-repeat;
+    margin: -172px 2px 2px 2px;
+    height: 140px;
+    position: reletive;
+    z-index: 1;
+	}
 
 .voluntary-insurance {
   text-align: center;
@@ -227,7 +215,6 @@ header {
 
 /* ---- Why Pasadena, Events, Gallery SECTION ----*/
 
-/* ---- Why Pasadena, Events, Gallery SECTION ----*/
 
 .why-pasadena {
   text-align: center;
@@ -305,6 +292,10 @@ header {
 
 /* Meet the Teams CSS */
 /* New Carousel and card CSS */
+.team{
+  background-image: url("images/City Hall 4.jpg");
+  background-size: 100% 100%;
+}
 .teamslider{
 		width: 850px;
 		height: 256px;
@@ -372,7 +363,8 @@ header {
 	}
 
 	#team_titles{
-	font: 12pt normal Arial, sans-serif;
+	color: #333333;
+	font: 14pt normal Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
 	}
@@ -393,42 +385,33 @@ header {
 .modalbgcolor {
   background-color: #4eaab0;
 }
+.regdirpic{
+	margin-left: 33%;
+}
 .rectangle2{
   height: auto;
    width: 80%;
    background: #000000;
-   position: center;
-   left: auto;
-   top: auto;
-   margin: auto;
+   margin-left:8%;
    font-family: 'Bitter', 'Trebuchet MS', Cambria;
    z-index: 1;
 }
 
+
+
 .rectangle1{
-  height: auto;
+	height: auto;
     width: 80%;
     background: white;
+	opacity: 0.7;
     position: center;
     left: auto;
-    top: auto;
-    margin: auto;
+	margin-left:8%;
     font-family: 'Bitter', 'Trebuchet MS', Cambria;
     z-index: 5;
     text-align: justify;
     margin-bottom: 7%;
 }
-
-.team{
-  background-color:#000000;
-  overflow: visable;
-  padding: 0px;
-  margin: 0px;
-  padding-bottom: 3%;
-
-}
-
-
 
 .para2{
  text-align: justify;
@@ -439,15 +422,17 @@ header {
  padding-right:15px;
  padding-bottom:10px;
  padding-top: 3px;
+ color: #333333;
 }
 
 .lenzo1{
    font-family: 'Bitter', 'Trebuchet MS', Cambria;
    font-size: 185%;
    font-weight: bold;
-   text-align: right;
-   letter-spacing: 9px;
+   margin-left: 27%;
+   letter-spacing:9px;
    color: #ffffff;
+   position: reletive;
 }
 
 
@@ -455,8 +440,8 @@ header {
     font-family: 'Bitter', 'Trebuchet MS', Cambria;
     font-size: 185%;
     font-weight: bold;
-    text-align: left;
-	letter-spacing: 9px;
+    margin-left: -9%;
+	letter-spacing:9px;
   color: #ffffff;
  }
 
@@ -466,7 +451,7 @@ header {
     font-size: 125%;
     font-weight: normal;
     letter-spacing: 9px;
-    text-align:right;
+    margin-left: 59%;
     color: #ffffff;
  }
 
@@ -476,7 +461,7 @@ header {
     font-size: 125%;
     font-weight: normal;
     letter-spacing: 9px;
-    text-align: left;
+    margin-left: -8%;
     color: #ffffff;
  }
 
@@ -516,7 +501,8 @@ header {
     font-size: 14px;
 	  word-spacing: 5px;
 	  letter-spacing: 1px;
-    padding-top: 3px;
+    padding-top: 30%;
+	color: #333333;
 }
 
 
@@ -562,14 +548,8 @@ header {
 }
 #content > h2 {
   padding-top: 70px;
-  font-size: 250%;
-  position: center;
-  display: inline-block;
-  height: 80px;
-  line-height: 60px;
   margin-bottom: 0px;
-  /*font-family: Century Gothic, 'Bitter', 'Trebuchet MS', Cambria;*/
-  color: #FFFFFF;
+  color: #333333;
 }
 
 /*Available Position section */
@@ -955,15 +935,19 @@ height: 600px;
 .google-map {
 	display: absolute;
 }
+#contact-us{
+	background-color: #333333;
+	background-size: 100% 100%;
+}
 
 .contact-us-section {
+	padding: 50px
 }
 
 .contact-us-section > h2 {
   color: #fff;
   text-align: center;
   /*padding: 20px;*/
-  padding-top: 70px;
 }
 
 
