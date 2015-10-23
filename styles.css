@@ -254,6 +254,10 @@ header {
     text-align: center;
     opacity: 0.6;
 }
+#container1:hover #image{
+    color: #CC181E;
+    opacity: 1;
+}
 .about-videos {
   width: 220px;
   height: 220px;
