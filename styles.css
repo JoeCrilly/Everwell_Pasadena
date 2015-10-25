@@ -429,21 +429,11 @@ body {
    font-family: 'Bitter', 'Trebuchet MS', Cambria;
    font-size: 185%;
    font-weight: bold;
-   margin-left: 27%;
+   margin-left: 30%;
    letter-spacing:9px;
    color: #ffffff;
    position: reletive;
 }
-
-
-.lenzo2{
-    font-family: 'Bitter', 'Trebuchet MS', Cambria;
-    font-size: 185%;
-    font-weight: bold;
-    margin-left: -9%;
-	letter-spacing:9px;
-  color: #ffffff;
- }
 
 
  .regdir1{
@@ -451,19 +441,12 @@ body {
     font-size: 125%;
     font-weight: normal;
     letter-spacing: 9px;
-    margin-left: 59%;
+    margin-left: 27%;
     color: #ffffff;
  }
 
 
- .regdir2{
-    font-family: 'Bitter', 'Trebuchet MS', Cambria;
-    font-size: 125%;
-    font-weight: normal;
-    letter-spacing: 9px;
-    margin-left: -8%;
-    color: #ffffff;
- }
+
 
 
 .business-image {
