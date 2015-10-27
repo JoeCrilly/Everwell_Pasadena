@@ -293,8 +293,9 @@ body {
 /* Meet the Teams CSS */
 /* New Carousel and card CSS */
 .team{
-  background-image: url("images/City Hall 4.jpg");
+  background-image: url("images/Metro 2.jpg");
   background-size: 100% 100%;
+  
 }
 .teamslider{
 		width: 850px;
