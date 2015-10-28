@@ -422,19 +422,20 @@ body {
     margin-bottom: 7%;
 }
 
-.para2{
+.para{
  text-align: justify;
  font-size: 12px;
  word-spacing: 6px;
  letter-spacing: 3px;
- line-height: 170%;
+ line-height: 150%;
  padding-right:15px;
  padding-bottom:10px;
  padding-top: 3px;
  color: #333333;
+ margin-right:10%;
 }
 
-.lenzo1{
+.lenzo{
    font-family: 'Bitter', 'Trebuchet MS', Cambria;
    font-size: 185%;
    font-weight: bold;
@@ -445,7 +446,7 @@ body {
 }
 
 
- .regdir1{
+ .regdir{
     font-family: 'Bitter', 'Trebuchet MS', Cambria;
     font-size: 125%;
     font-weight: normal;
@@ -486,15 +487,7 @@ body {
    color: #fff;
    overflow: visible;
    z-index: 5;
-}
-
-.para1{
-    text-align: center;
-    font-size: 14px;
-	  word-spacing: 5px;
-	  letter-spacing: 1px;
-    padding-top: 30%;
-	color: #333333;
+   margin-top:25%;
 }
 
 
