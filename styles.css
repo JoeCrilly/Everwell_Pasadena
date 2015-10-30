@@ -794,18 +794,21 @@ height: 600px;
     left: 0;
 }
 
-.position-image-1 {
-   opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-}
-
-.position-image-1:hover {
-   opacity: 0.5;
-
-}
-
+.view {
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	filter:none;
+	}
+	
+.view:hover {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	filter:gray;
+	-webkit-transition: all .6s ease;
+	}	
+	
+	
+	
 .position-image-1
 {
     position: absolute;
