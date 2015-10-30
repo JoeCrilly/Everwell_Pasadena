@@ -298,10 +298,10 @@ body {
 
 /* Meet the Teams CSS */
 /* New Carousel and card CSS */
+
 .team{
   background-image: url("images/Metro 2.jpg");
   background-size: 100% 100%;
-
 }
 .teamslider{
 		width: 850px;
@@ -454,9 +454,6 @@ body {
  }
 
 
-
-
-
 .business-image {
   height: 400px;
   position: relative;
@@ -473,11 +470,6 @@ body {
   position: absolute;
   height: 400px;
   width: 100%;
-  -webkit-filter: blur(2px);
-  -moz-filter: blur(2px);
-  -o-filter: blur(2px);
-  -ms-filter: blur(2px);
-  filter: blur(2px);
   z-index: 500;
 }
 
