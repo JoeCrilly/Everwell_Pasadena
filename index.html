@@ -34,8 +34,11 @@
 	<meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="javascript/parallax.js/parallax.js"></script>
+
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript" src ="TeamSlider.js"></script>
 
@@ -175,9 +178,13 @@
 	<br /><br />
 
 <!----------------------------------DIVIDER IMAGE------------------------------------------>
-	<div class="business-image">
+	<!-- <div class="business-image">
 		<img src="./images/DividerImage.jpg" />
 	    <div class="business-text"><h1 align = "center"><br><br><br><br><br>BUSINESSES NEED YOU</h1></div>
+	</div> -->
+
+	<div class="parallax-window business-image" data-parallax="scroll" data-image-src="./images/DividerImage.jpg">
+		<div class="business-text"><h1 align = "center"><br><br><br><br><br>BUSINESSES NEED YOU</h1></div>
 	</div>
 
 <!------------------------------WHY PASADENA SECTION--------------------------------------->
