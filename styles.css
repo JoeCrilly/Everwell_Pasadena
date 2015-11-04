@@ -365,7 +365,7 @@ body {
 	}
 
 	#team_titles{
-	color: #333333;
+	color: white;
 	font: 14pt normal Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -521,7 +521,7 @@ body {
 #content > h2 {
   padding-top: 70px;
   margin-bottom: 0px;
-  color: #333333;
+  color: white;
 }
 
 /*Available Position section */
