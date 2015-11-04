@@ -109,20 +109,15 @@ body {
   text-shadow: 3px 3px #888888;
 }
 
-.navbar {
-  -webkit-box-shadow: 0 8px 6px -6px #999;
-  -moz-box-shadow: 0 8px 6px -6px #999;
-  box-shadow: 0 8px 6px -6px #999;
-}
-
 .navbar-custom {
   height: 60px;
   background: rgba(255, 255, 255, 0);
   /*box-shadow: none !important;*/
-  border: 0 !important;
+  border: none;
+  /*border: 0 !important;
   -webkit-box-shadow: 0 8px 6px -6px #999;
   -moz-box-shadow: 0 8px 6px -6px #999;
-  box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;*/
 }
 
 .navbar .nav > li > a {
