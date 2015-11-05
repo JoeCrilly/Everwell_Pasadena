@@ -15,3 +15,5 @@ $(document).ready(function() {
 		mainClass: 'my-mfp-zoom-in'
 	});
 	});
+	
+	
