@@ -9,7 +9,12 @@ $.extend(true, $.magnificPopup.defaults, {
               index: 'youtube.com/', 
               id: 'v=', 
               src: 'http://www.youtube.com/embed/%id%?autoplay=1' 
-          }
+          },
+           vimeo: {
+      		  index: 'vimeo.com/',
+      		  id: '/',
+      		  src: 'http://player.vimeo.com/video/%id%?autoplay=1'
+         }
         }
     }
 });
