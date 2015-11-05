@@ -143,13 +143,13 @@
 					   $(document).scroll(function() {
 					      scroll_start = $(this).scrollTop();
 					      if(scroll_start > offset.top) {
-					          $(".navbar-custom").css('background-color', 'white');
+					          $(".navbar-custom").css({'background-color': 'white', 'box-shadow': '3px 3px 2px #888'});
 										$(".nav > li > a").css('color', 'black');
 
 					       } else {
-					          $('.navbar-custom').css('background-color', 'transparent');
+					          $('.navbar-custom').css({'background-color': 'transparent', 'box-shadow': 'none'});
 										$(".nav > li > a").css('color', '#C4C4C4');
-										$("navbar-custom").css('border', 'none');
+										// $("navbar-custom").css('border', 'none');
 					       }
 					   });
 					    }
