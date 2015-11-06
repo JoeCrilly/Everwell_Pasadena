@@ -112,12 +112,7 @@ body {
 .navbar-custom {
   height: 60px;
   background: rgba(255, 255, 255, 0);
-  /*box-shadow: none !important;*/
   border: none;
-  /*border: 0 !important;
-  -webkit-box-shadow: 0 8px 6px -6px #999;
-  -moz-box-shadow: 0 8px 6px -6px #999;
-  box-shadow: 0 8px 6px -6px #999;*/
 }
 
 .navbar .nav > li > a {
@@ -229,10 +224,10 @@ body {
 }
 
 .videoslider{
-		width: 660px;
-		height: 400px;
-		padding-top: 50px;
-		background: transparent;
+	width: 660px;
+	height: 400px;
+	padding-top: 50px;
+	background: transparent;
 	}
 
 .videoslider img{
@@ -327,24 +322,24 @@ body {
 /* Meet the Teams CSS */
 /* New Carousel and card CSS */
 
-.team{
-  background-image: url("images/Metro 2.jpg");
-  background-size: 100% 100%;
-}
-.teamslider{
+	.team{
+		background-image: url("images/Metro 2.jpg");
+		background-size: 100% 100%;
+	}
+	.teamslider{
 		width: 850px;
 		height: 256px;
 		margin: 10px auto;
 		background: transparent;
-	}
+		}
 	.teamslider img{
 		position: center;
 	}
 
 	#mainwrapper {
-	font: 10pt normal Arial, sans-serif;
-	height: auto;
-	text-align: center;
+		font: 10pt normal Arial, sans-serif;
+		height: auto;
+		text-align: center;
 
 }
 
@@ -398,22 +393,22 @@ body {
 	}
 
 	#team_titles{
-	color: white;
-	font: 14pt normal Arial, sans-serif;
-	text-transform: uppercase;
-	font-weight: bold;
+		color: white;
+		font: 14pt normal Arial, sans-serif;
+		text-transform: uppercase;
+		font-weight: bold;
 	}
 
 	#team_description{
 
 	}
 	.team-dialog {
-	background: white;
-	padding: 20px 30px;
-	text-align: center;
-	max-width: 800px;
-	margin: 40px auto;
-	position: relative;
+		background: white;
+		padding: 20px 30px;
+		text-align: center;
+		max-width: 800px;
+		margin: 40px auto;
+		position: relative;
 	}
 
 
@@ -429,6 +424,7 @@ body {
    width: 80%;
    background: #000000;
    left:auto;
+   right: auto;
    top:auto;
    margin: auto;
    font-family: 'Bitter', 'Trebuchet MS', Cambria;
@@ -439,16 +435,17 @@ body {
 
 .rectangle1{
 	height: auto;
-  width: 80%;
-  background: white;
+	width: 80%;
+	background: white;
 	opacity: 1;
-  position: center;
-  left: auto;
+	position: center;
+	left: auto;
+	right: auto;
 	margin:auto;
-  font-family: 'Bitter', 'Trebuchet MS', Cambria;
-  z-index: 5;
-  text-align: justify;
-  margin-bottom: 7%;
+	font-family: 'Bitter', 'Trebuchet MS', Cambria;
+	z-index: 5;
+	text-align: justify;
+	margin-bottom: 7%;
 }
 
 .para{
@@ -562,7 +559,6 @@ body {
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 body, html { font-size: 100%; padding: 0; margin: 0;}
 
-/* Styles for dialog window */
 .small-dialog {
 	background: white;
 	padding: 20px 30px;
@@ -667,7 +663,7 @@ select {
 	height: 75px;
 	font-size: 200%;
 	display: table-cell;
-vertical-align: middle;
+	vertical-align: middle;
 	border-radius: 5px;
 	font-family: Century Gothic;
 	position: relative;
@@ -675,7 +671,7 @@ vertical-align: middle;
 	top:-100px;
 	display: inline-block;
 	justify-content: center; /* align horizontal */
-align-items: center; /* align vertical */
+	align-items: center; /* align vertical */
 }
 	
 a.btn-apply2:hover, a.btn-apply2:active {color: white;}
@@ -819,10 +815,12 @@ height: 600px;
 	position: relative;
 }
 
+
 .position-image-2   {
     position: absolute;
     top: 0;
     left: 0;
+	
 }
 
 .view {
@@ -845,7 +843,8 @@ height: 600px;
     position: absolute;
     top: 200px;
 	left: 0;
-	margin-top: -180px;
+	margin-top: -200px;
+	overflow: hidden;
 }
 
 .grid figcaption {
@@ -879,7 +878,7 @@ height: 600px;
 }
 
 
-/* Caption Hover for available position secction  */
+/* Caption Hover for available position section  */
 .caption-hover figure {
 	overflow: hidden;
 }
@@ -964,7 +963,6 @@ height: 600px;
 .contact-us-section > h2 {
   color: #fff;
   text-align: center;
-  /*padding: 20px;*/
 }
 
 
@@ -1005,9 +1003,6 @@ height: 600px;
   padding: 10px;
 }
 
-.contact-us-images > a:hover {
-  /*background-image: url('./images/fb.png');*/
-}
 
 .contact-us-table {
   margin-left: auto;
