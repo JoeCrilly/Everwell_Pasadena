@@ -30,14 +30,6 @@ body {
     height: 100%;
 }
 
-.splash-page-image {
-  -webkit-filter: blur(3px);
-  -moz-filter: blur(3px);
-  -o-filter: blur(3px);
-  -ms-filter: blur(3px);
-  filter: blur(3px);
-}
-
 .carousel-caption img {
     width: 50%;
     height:auto;
